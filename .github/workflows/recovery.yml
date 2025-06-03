@@ -11,10 +11,9 @@ on:
 env:
   RECOVERY_URL: https://oshi.at/Rpjg
 
-    jobs:
-      build:
-        runs-on: ubuntu-24.04
-        steps:
+jobs:
+  build:
+    runs-on: ubuntu-22.04
 
     steps:
     - name: Check Out
